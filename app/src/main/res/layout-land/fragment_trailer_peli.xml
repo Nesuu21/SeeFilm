@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".trailerPeli">
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="266dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32dp" />
+
+        <WebView
+            android:id="@+id/trailer"
+            android:layout_width="354dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:id="@+id/sinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="35dp"
+            android:background="#ff0000"
+            android:clickable="true"
+            android:src="@android:drawable/ic_menu_revert"
+            app:backgroundTint="#ff0000"
+            app:rippleColor="#ff0000" />
+    </LinearLayout>
+
+</LinearLayout>

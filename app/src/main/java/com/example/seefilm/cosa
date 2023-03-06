@@ -1,0 +1,11 @@
+Todas las peliculas pasadas a bbdd con la info correspondiente
+Con un previo login
+En el cual tenga que registrarse si o si para poder acceder
+
+
+fragment_login.xml hay que hacer los onclicklistener de los buttons para que Registrar vaya a su fragmento y login vaya a la app
+
+fragment_registro.xml hay que sacar un mensaje una vez se haya registrado el usuario correctamente y las credenciales sean validas
+
+Un perfil admin para poder crear y ver pelis
+Y otro para solo ver pelis
